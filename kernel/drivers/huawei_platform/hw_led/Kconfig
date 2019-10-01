@@ -1,0 +1,15 @@
+#
+#led config driver configuration
+#
+menuconfig HW_LED_CONFIG
+	bool "led config driver"
+	default n
+	help
+	Say yes here to support for led config driver.
+
+config HW_LED_AW2023
+    tristate "LED Support for AW2023"
+    depends on LEDS_CLASS && I2C
+    help
+    this option enables support for the AW2023 RGB LED connected
+    through I2C. Say Y to enable support for the AW2023 LED
