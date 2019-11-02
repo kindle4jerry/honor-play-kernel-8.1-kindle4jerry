@@ -1,4 +1,5 @@
 # honor-play-kernel-8.1-kindle4jerry
+##注意，教程主要在9.0内核区，8.2内核区教程较少
 官方开源内核8.1小改
 ## 功能
 解锁SELinux
